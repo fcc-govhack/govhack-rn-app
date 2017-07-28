@@ -1443,7 +1443,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.govhack.govhackapp;
 				PRODUCT_NAME = GovHackApp;
@@ -1473,7 +1472,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.govhack.govhackapp;
 				PRODUCT_NAME = GovHackApp;
