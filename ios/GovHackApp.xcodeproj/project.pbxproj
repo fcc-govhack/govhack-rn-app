@@ -36,10 +36,14 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* GovHackAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GovHackAppTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		66F6350AFDE075F410B22F6D /* libPods-GovHackApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521A50885D663B1BFCF3365 /* libPods-GovHackApp-tvOS.a */; };
 		717B6AF9FCD8412AB68C8C2C /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6358AC3BD2324392B9D588C9 /* libRNCrashes.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		AB22A67B1255B8FE6B2303F4 /* libPods-GovHackApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE119F937B5942212E2B3CF /* libPods-GovHackApp.a */; };
 		CC5C65B40480437D81BEE34A /* libRNMobileCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896EA9919FE4263B58D79AA /* libRNMobileCenter.a */; };
+		D319267C46EC17328DA3E886 /* libPods-GovHackAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C783D9CA8424C22759C3CA3F /* libPods-GovHackAppTests.a */; };
 		E2E1262A8ADC46ACBAA328AE /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B50BE497E7D424FB5CCEB25 /* libRNAnalytics.a */; };
+		FC46BDC2B8F6A81FC18F78E7 /* libPods-GovHackApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 903F00B10F275BF3ED60553A /* libPods-GovHackApp-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +297,8 @@
 		00E356EE1AD99517003FC87E /* GovHackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovHackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GovHackAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GovHackAppTests.m; sourceTree = "<group>"; };
+		06950D35ABE783D9ECFA3BF4 /* Pods-GovHackApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp-tvOSTests/Pods-GovHackApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C4D1EE2D9D309F463DE114E /* Pods-GovHackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp/Pods-GovHackApp.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GovHackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovHackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -305,16 +311,26 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1896EA9919FE4263B58D79AA /* libRNMobileCenter.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNMobileCenter.a; sourceTree = "<group>"; };
 		1E8361ABDD7B4D4FA50977A6 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "GovHackApp/MobileCenter-Config.plist"; sourceTree = "<group>"; };
+		251FDD27A326485A1288B05A /* Pods-GovHackApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp-tvOS/Pods-GovHackApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* GovHackApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GovHackApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GovHackApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GovHackApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E06F038B8E2C39DEFDCF8F /* Pods-GovHackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp/Pods-GovHackApp.release.xcconfig"; sourceTree = "<group>"; };
 		37EB7858FC2B47BF989D9859 /* RNMobileCenter.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNMobileCenter.xcodeproj; path = "../node_modules/mobile-center/ios/RNMobileCenter.xcodeproj"; sourceTree = "<group>"; };
 		4148F34B9D4A4B1892D9CA14 /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCrashes.xcodeproj; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; };
 		5B50BE497E7D424FB5CCEB25 /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAnalytics.a; sourceTree = "<group>"; };
 		5DB68862131B472E9A1674ED /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6358AC3BD2324392B9D588C9 /* libRNCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCrashes.a; sourceTree = "<group>"; };
+		6666D51FED543B062477F499 /* Pods-GovHackApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp-tvOSTests/Pods-GovHackApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		903F00B10F275BF3ED60553A /* libPods-GovHackApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GovHackApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9521A50885D663B1BFCF3365 /* libPods-GovHackApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GovHackApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C35D3D8E2E9AB5550CE2F90 /* Pods-GovHackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackAppTests/Pods-GovHackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D8AEC4188534BC879049F4 /* Pods-GovHackApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackApp-tvOS/Pods-GovHackApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C783D9CA8424C22759C3CA3F /* libPods-GovHackAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GovHackAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E430E4205308C828BAA26DAE /* Pods-GovHackAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovHackAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GovHackAppTests/Pods-GovHackAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE119F937B5942212E2B3CF /* libPods-GovHackApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GovHackApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				D319267C46EC17328DA3E886 /* libPods-GovHackAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +361,7 @@
 				CC5C65B40480437D81BEE34A /* libRNMobileCenter.a in Frameworks */,
 				E2E1262A8ADC46ACBAA328AE /* libRNAnalytics.a in Frameworks */,
 				717B6AF9FCD8412AB68C8C2C /* libRNCrashes.a in Frameworks */,
+				AB22A67B1255B8FE6B2303F4 /* libPods-GovHackApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +377,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				66F6350AFDE075F410B22F6D /* libPods-GovHackApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +385,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC46BDC2B8F6A81FC18F78E7 /* libPods-GovHackApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		27E5B3765EA906F80F9CDBB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE119F937B5942212E2B3CF /* libPods-GovHackApp.a */,
+				9521A50885D663B1BFCF3365 /* libPods-GovHackApp-tvOS.a */,
+				903F00B10F275BF3ED60553A /* libPods-GovHackApp-tvOSTests.a */,
+				C783D9CA8424C22759C3CA3F /* libPods-GovHackAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +569,8 @@
 				00E356EF1AD99517003FC87E /* GovHackAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				1E8361ABDD7B4D4FA50977A6 /* MobileCenter-Config.plist */,
+				D4176AAFA7E21A2FA0D7A661 /* Pods */,
+				27E5B3765EA906F80F9CDBB3 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -578,6 +611,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D4176AAFA7E21A2FA0D7A661 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C4D1EE2D9D309F463DE114E /* Pods-GovHackApp.debug.xcconfig */,
+				34E06F038B8E2C39DEFDCF8F /* Pods-GovHackApp.release.xcconfig */,
+				251FDD27A326485A1288B05A /* Pods-GovHackApp-tvOS.debug.xcconfig */,
+				A9D8AEC4188534BC879049F4 /* Pods-GovHackApp-tvOS.release.xcconfig */,
+				06950D35ABE783D9ECFA3BF4 /* Pods-GovHackApp-tvOSTests.debug.xcconfig */,
+				6666D51FED543B062477F499 /* Pods-GovHackApp-tvOSTests.release.xcconfig */,
+				9C35D3D8E2E9AB5550CE2F90 /* Pods-GovHackAppTests.debug.xcconfig */,
+				E430E4205308C828BAA26DAE /* Pods-GovHackAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -585,9 +633,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GovHackAppTests" */;
 			buildPhases = (
+				D62698F03CBDC1AD0FC47621 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				46CD21C8EF505A608670EDBD /* [CP] Embed Pods Frameworks */,
+				004B0A4333BCBC942968B3BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -603,10 +654,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GovHackApp" */;
 			buildPhases = (
+				F69DF5D3769B82195B76C497 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4C18FEEDF8F42C5F6FB15BAF /* [CP] Embed Pods Frameworks */,
+				510CE43572B46A158E92A53D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -621,10 +675,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GovHackApp-tvOS" */;
 			buildPhases = (
+				09C9AFF7F577CEDBB17AA080 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				98AD6F6674BE5A7B8205FD2A /* [CP] Embed Pods Frameworks */,
+				78529A2A3AE0FD69F1452409 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -639,9 +696,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GovHackApp-tvOSTests" */;
 			buildPhases = (
+				4707A1A2A28CC5C4051A3A3C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				B0BA973A7CFFDDC09EFB65BA /* [CP] Embed Pods Frameworks */,
+				E0D2896B074805629F772A2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -667,6 +727,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = V5MP253N54;
 						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -1022,6 +1083,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		004B0A4333BCBC942968B3BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackAppTests/Pods-GovHackAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1036,6 +1112,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		09C9AFF7F577CEDBB17AA080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1049,6 +1140,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		46CD21C8EF505A608670EDBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackAppTests/Pods-GovHackAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4707A1A2A28CC5C4051A3A3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C18FEEDF8F42C5F6FB15BAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp/Pods-GovHackApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510CE43572B46A158E92A53D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp/Pods-GovHackApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78529A2A3AE0FD69F1452409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp-tvOS/Pods-GovHackApp-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AD6F6674BE5A7B8205FD2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp-tvOS/Pods-GovHackApp-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BA973A7CFFDDC09EFB65BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp-tvOSTests/Pods-GovHackApp-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62698F03CBDC1AD0FC47621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D2896B074805629F772A2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GovHackApp-tvOSTests/Pods-GovHackApp-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69DF5D3769B82195B76C497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1117,6 +1358,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C35D3D8E2E9AB5550CE2F90 /* Pods-GovHackAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1149,6 +1391,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E430E4205308C828BAA26DAE /* Pods-GovHackAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1178,12 +1421,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4D1EE2D9D309F463DE114E /* Pods-GovHackApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V5MP253N54;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/mobile-center/ios/RNMobileCenter",
@@ -1196,16 +1441,19 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.govhack.govhackapp;
 				PRODUCT_NAME = GovHackApp;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "9d43ef44-8407-4650-92b7-1633e0a90b65";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.govhack.govhackapp";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E06F038B8E2C39DEFDCF8F /* Pods-GovHackApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -1223,6 +1471,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.govhack.govhackapp;
 				PRODUCT_NAME = GovHackApp;
@@ -1233,6 +1482,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251FDD27A326485A1288B05A /* Pods-GovHackApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1271,6 +1521,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D8AEC4188534BC879049F4 /* Pods-GovHackApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1309,6 +1560,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06950D35ABE783D9ECFA3BF4 /* Pods-GovHackApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1336,6 +1588,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6666D51FED543B062477F499 /* Pods-GovHackApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
