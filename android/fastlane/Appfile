@@ -1,0 +1,2 @@
+json_key_file "app/Google Play Android Developer-6c916420351f.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "com.govhack.govhackapp" # e.g. com.krausefx.app
